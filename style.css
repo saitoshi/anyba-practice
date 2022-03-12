@@ -22,10 +22,10 @@ nav {
   }
   nav ul li a.last-item{
     border-radius: 25px;
-    padding-bottom: 10px;
+    padding: 1em 3em;
     background: orange; 
     width: 100px;
-    height: 20px;  
+    height: 15px;  
     color: white
 
   }
@@ -60,3 +60,7 @@ nav {
     color: white;
   }
 
+  .subtitle h1, h2 {
+    margin:0;
+    padding:0;
+  }
