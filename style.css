@@ -1,0 +1,45 @@
+nav {
+    background-color: transparent;
+    margin: 0;
+    overflow: hidden;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li a {
+    color: black;
+    background-color: transparent;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+  }
+  nav ul li a.last-item{
+    border-radius: 25px;
+    padding-bottom: 10px;
+    background: orange; 
+    width: 100px;
+    height: 20px;  
+    color: white
+
+  }
+
+
+  nav ul li:first-child {
+    margin-right: auto;
+  }
+  .center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
