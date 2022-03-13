@@ -16,7 +16,7 @@ nav {
     color: black;
     background-color: transparent;
     display: block;
-    line-height: 3em;
+    line-height: 2em;
     padding: 1em 3em;
     text-decoration: none;
   }
@@ -52,6 +52,10 @@ nav {
   .cp-00 {
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
   }
+
+  .cp-01 {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
   .div-sample {
     width: 900px;
     height: 700px;
@@ -64,3 +68,18 @@ nav {
     margin:0;
     padding:0;
   }
+
+  .home-img {
+    overflow: hidden;
+  }
+
+  .homeLoc {
+    position: relative;
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+  }
+
+.pentagonImg {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
